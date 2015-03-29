@@ -15,7 +15,7 @@
             {
                 url: '/',
                 config: {
-                    templateUrl: 'feature/feature.html',
+                    templateUrl: 'build/views/feature/feature.html',
                     controller: 'Feature',
                     controllerAs: 'vm'
                 }

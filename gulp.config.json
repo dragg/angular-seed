@@ -1,0 +1,11 @@
+{
+  "js": [
+    "./resources/assets/app/**/*module*.js",
+    "./resources/assets/app/**/*.js",
+    "./resources/assets/app/app.module.js"
+  ],
+  "build": {
+    "index": "./public/",
+    "views": "./public/build/views/"
+  }
+}
