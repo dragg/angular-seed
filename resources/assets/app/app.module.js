@@ -8,6 +8,7 @@
             /*
              * Feature areas
              */
-            'app.feature'
+            'app.feature1',
+            'app.feature2'
         ]);
 })();

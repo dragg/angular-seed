@@ -12,9 +12,11 @@
 
 </head>
 <body>
-    <div data-ng-view>
-        View
-    </div>
+    <div data-ui-view></div>
+
+    <!-- We'll also add some navigation: -->
+    <a data-ui-sref="state1">State 1</a>
+    <a data-ui-sref="state2">State 2</a>
 
     <!-- inject-vendor:js -->
     <script src="./components/angular/angular.js"></script>
@@ -22,6 +24,7 @@
     <script src="./components/angular-route/angular-route.js"></script>
     <script src="./components/toastr/toastr.js"></script>
     <script src="./components/moment/moment.js"></script>
+    <script src="./components/angular-ui-router/release/angular-ui-router.js"></script>
     <!-- endinject -->
 
     <script src="./build/js/app.js"></script>
@@ -45,9 +48,9 @@
     <script src="../app/core/config.js"></script>-->
 
     <!-- feature module-->
-    <!--<script src="../app/feature/feature.module.js"></script>
+    <!--<script src="../app/feature/feature1.module.js"></script>
     <script src="../app/feature/config.route.js"></script>
-    <script src="../app/feature/feature.js"></script>-->
+    <script src="../app/feature/feature1.js"></script>-->
     <!-- endinject -->
 </body>
 </html>
