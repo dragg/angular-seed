@@ -4,6 +4,8 @@
     "./resources/assets/app/**/*.js",
     "./resources/assets/app/app.module.js"
   ],
+  "templates": "./resources/assets/app/**/*.html",
+  "index": "./resources/assets/app/index.html",
   "build": {
     "index": "./public/",
     "views": "./public/build/views/"
